@@ -1,7 +1,7 @@
 const routes = require('express').Router();
 
 routes.get('/', (req, res) => {
-  res.send('Elizabeth Orchard');
+  res.send('Lizzy Orchard');
 });
 
 module.exports = routes;
